@@ -1,3 +1,11 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+footer {
+    margin-top: auto;
+}
 ul {
     list-style-type: none;
 }
@@ -8,4 +16,28 @@ ul li {
     display: flex;
     justify-content: flex-end;
     direction: ltr;
+    
 }
+.logo {
+    margin: 20px;
+}
+.search-input {
+    width: 527px;
+    height: 34px;
+    margin: 20px;
+}
+.main-content {
+    text-align: center;
+}
+.countery-bg {
+    opacity: 0.5;
+    background-color: #ececec;
+    padding: 1px;
+}
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+
